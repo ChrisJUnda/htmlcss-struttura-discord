@@ -14,8 +14,14 @@ header{
     margin: 0 auto;
 }
 
+.container-sm{
+    max-width: 990px;
+    margin: 0 auto;
+}
+
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .col-25{
@@ -28,10 +34,21 @@ header{
     border: 1px solid black;
     background-color: orange;
 }
+
+.col-100{
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgb(245, 134, 152);
+    height: 250px;
+}
 /*Fine Classi di Layout*/
 
 .bg-lightblue{
     background-color: lightblue;
+}
+
+.bg-darkblue{
+    background-color: rgb(0, 0, 87);
 }
 
 .text-left{
@@ -60,4 +77,8 @@ header{
 
 .py-10{
     padding: 10px 0;
+}
+
+.py-50{
+    padding: 50px 0;
 }
